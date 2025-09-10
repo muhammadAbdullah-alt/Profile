@@ -1,0 +1,17 @@
+HTTrack3.49-2+htsswf+htsjava launched on Sat, 06 Sep 2025 16:57:41 at https://usmanarif.netlify.app +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qiC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://usmanarif.netlify.app -O1 "C:\Users\hp\OneDrive\Documents\My profile" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:00:18	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://usmanarif.netlify.app/lib/boxicons-2.1.4/fonts/boxicons.woff (from https://usmanarif.netlify.app/lib/boxicons-2.1.4/css/boxicons.min.css)
+17:00:18	Warning: 	Retry after error -4 (Connect Error) at link https://usmanarif.netlify.app/lib/boxicons-2.1.4/fonts/boxicons.ttf (from https://usmanarif.netlify.app/lib/boxicons-2.1.4/css/boxicons.min.css)
+17:00:18	Warning: 	Retry after error -4 (Connect Error) at link https://usmanarif.netlify.app/lib/boxicons-2.1.4/fonts/boxicons.svg? (from https://usmanarif.netlify.app/lib/boxicons-2.1.4/css/boxicons.min.css)
+17:00:23	Warning: 	Retry after error -4 (No data (connection closed)) at link https://usmanarif.netlify.app/assets/images/portfolio/pic_2.png (from https://usmanarif.netlify.app/dark)
+17:00:23	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://usmanarif.netlify.app/lib/package/dist/typed.umd.js (from https://usmanarif.netlify.app/dark)
+17:00:24	Warning: 	Warning: store application/octet-stream without scan: C:/Users/hp/OneDrive/Documents/My profile/usmanarif.netlify.app/assets/loading/spinner.svg
+
+HTTrack Website Copier/3.49-2 mirror complete in 2 minutes 45 seconds : 45 links scanned, 39 files written (22616546 bytes overall), 39 files updated [21071965 bytes received at 127708 bytes/sec], 2591752 bytes transferred using HTTP compression in 21 files, ratio 39%
+(No errors, 6 warnings, 0 messages)
