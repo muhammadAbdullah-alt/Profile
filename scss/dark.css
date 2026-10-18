@@ -608,11 +608,19 @@ footer .container .row:nth-child(2) .col-12 h3 {
     padding-right: 20px !important;
   }
   .hero-section {
-    min-height: 80vh;
+    height: auto;
+    min-height: 100vh;
+    min-height: 100svh;
+    background: transparent;
+    position: relative;
+  }
+   #hero-section {
+    min-height: 100vh;
+    min-height: 100svh;
     background-image: url(../Untitleddesign.png);
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
-    position: relative;
   }
   .hero-section .row .col:nth-child(1) {
     z-index: 2;
