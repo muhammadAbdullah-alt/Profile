@@ -353,18 +353,21 @@
             <h2 class='text-info text-center fw-bold my-5'>PORTFOLIO</h2>
             <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
                 <div class="col">
-                    <div class="card">
+                    <div class="card h-100 bg-dark border-secondary">
                         <div class="card-img">
-                            <!-- Button trigger modal -->
-                            <button type="button" class="btn btn-link rounded-0 rounded-top" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal"
-                                onclick="handleImageModal('assets/images/portfolio/pic_1.png')">
-                                <img class='inner-img' src="assets/images/portfolio/pic_1.png" alt="portfolio_pics">
+                            <button type="button" class="btn btn-link rounded-0 rounded-top p-0 w-100" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="handleImageModal('assets/images/portfolio/study-tracker.PNG')">
+                                <img class='inner-img img-fluid w-100' src="assets/images/portfolio/study-tracker.PNG" alt="Study Tracker">
                             </button>
                         </div>
-                        <div class="card-body">
-                            <h3 class="card-title fw-bold text-info">Ecommerce</h3>
-                            <p class="card-text d-flex justify-content-between">Web Design & Development</p>
+                        <div class="card-body d-flex flex-column justify-content-between">
+                            <div>
+                                <h3 class="card-title fw-bold text-info">Study & Task Tracker</h3>
+                                <p class="card-text text-light">Interactive task management, priorities, and live step tracker.</p>
+                            </div>
+                            <div class="d-flex gap-2 mt-3">
+                                <a href="https://task-tracker-ochre-six.vercel.app/" target="_blank" class="btn btn-sm btn-primary w-50">Live Demo</a>
+                                <a href="https://github.com/muhammadabdullah-alt/Study-Tracker" target="_blank" class="btn btn-sm btn-outline-secondary w-50">GitHub</a>
+                            </div>
                         </div>
                     </div>
                 </div>
