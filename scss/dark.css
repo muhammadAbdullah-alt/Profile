@@ -100,8 +100,14 @@ a.active {
   }
 }
 .hero-section {
-  height: 100vh;
+  /* FIX (2026-11-11): was `height: 100vh`. At zoom / narrower widths the two
+     50% hero columns make the text wrap much taller than 100vh, and the
+     fixed-height box let the buttons/links/photo paint over #work-section
+     (measured 212-268px of overflow at 768-1100px widths). min-height lets
+     the section grow with its content at every width. */
+  min-height: 100vh;
   padding-top: 110px;
+  padding-bottom: 3rem;
   display: flex;
   width: 100%;
   background: linear-gradient(180deg, #00bfe7, #100028, #100028);
@@ -354,10 +360,13 @@ a.active {
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  height: 500px;
+  /* FIX (2026-11-11): was fixed `height: 500px` — same class of bug as the
+     hero: content that wraps taller than 500px would paint over the next
+     section. min-height keeps the 500px look and grows if needed. */
+  min-height: 500px;
 }
 #project-section .uppar-layer {
-  height: 500px;
+  min-height: 500px;
   background-color: rgba(0, 0, 0, 0.5);
   display: flex;
   align-items: center;
