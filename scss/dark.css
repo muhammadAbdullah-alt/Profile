@@ -646,4 +646,16 @@ footer .container .row:nth-child(2) .col-12 h3 {
     height: 100%;
     background: linear-gradient(90deg, black, transparent);
   }
-}/*# sourceMappingURL=dark.css.map */
+}
+/* Portfolio photo fix: crop images to fill their square frames without distortion */
+.hero-section .row .col:nth-child(2) .clip-path img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+#about-section .container .row:nth-child(1) .col-lg-4 .my-image img {
+  object-fit: cover;
+  object-position: center;
+}
+/*# sourceMappingURL=dark.css.map */
